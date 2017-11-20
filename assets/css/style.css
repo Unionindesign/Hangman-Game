@@ -1,0 +1,59 @@
+body {
+	background-image: 
+}
+h1 {
+	font-family: 'Monoton', cursive;
+	color: #f347e5;
+	font-size: 66px;
+
+}
+
+h2, h3, h4, p {
+	font-family: 'Architects Daughter', cursive;
+}
+
+h3 {
+	color: #f347e5;
+}
+
+.bannerStyle {
+	height: 100%;
+
+}
+
+.container  {
+	margin: auto;
+	width: 100%;
+}
+
+.left-sidebar {
+	float: left;
+
+}
+
+.right-content {
+	float: right;
+	padding-left: 5%;
+/*	text-align: center;
+*/}
+
+footer {
+	background-color: #777777;
+	height: 80px;
+	padding-top: 30px;
+}
+
+/* insde Game Styles */
+
+
+#answer {
+
+}
+
+#letter {
+
+}
+
+#guess-counter {
+
+}
