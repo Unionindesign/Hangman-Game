@@ -1,5 +1,6 @@
 // Hangman game !
 
+// var letter = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "_"];
 
 var spiceArray = ["posh", "ginger", "sporty", "baby", "scary", "zigazig ha", "if you wanna be my lover", "spice world"];
 
@@ -46,7 +47,7 @@ function letterChecker(letter) {
 			letterInSelectedWord = true;
 		}
 	}
-
+	if (!(answerArray.indexOf(letter)>0)) {
 	if(letterInSelectedWord) {
 		for(i = 0; i <numberBlanks; i++) {
 			if(selectedWord[i] === letter) {
@@ -58,6 +59,7 @@ function letterChecker(letter) {
 		guessCount --;
 		answerArray.push(letter)
 	}
+}
 }
 
 function gameOver() {
