@@ -13,7 +13,7 @@ h2, h3, h4, p {
 }
 
 h3 {
-	color: #f347e5;
+	color: #777777;
 }
 
 .bannerStyle {
@@ -46,14 +46,18 @@ footer {
 /* insde Game Styles */
 
 
-#answer {
+#show-letter {
+	font-size: 42px;
+	color: #f347e5;
+	text-align: center;
+
 
 }
 
-#letter {
-
+#wrong-letter {
 }
 
 #guess-counter {
+
 
 }
